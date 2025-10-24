@@ -1,0 +1,7 @@
+customtkinter
+opencv-python
+pyzbar
+Pillow
+qrcode
+pandas
+pytest

@@ -1,0 +1,47 @@
+
+[2025-10-24T17:53:33.022484] add_user()
+Traceback (most recent call last):
+  File "C:\Users\Mggy\OneDrive\Documents\ProgrammingProjects\IAS-Project\qr_access_logger\apps\admin_app.py", line 173, in add_user
+    add_user(name, role, pin)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: add_user() missing 2 required positional arguments: 'pin_hash' and 'pin_salt'
+
+------------------------------------------------------------
+
+[2025-10-24T17:53:37.526602] add_user()
+Traceback (most recent call last):
+  File "C:\Users\Mggy\OneDrive\Documents\ProgrammingProjects\IAS-Project\qr_access_logger\apps\admin_app.py", line 173, in add_user
+    add_user(name, role, pin)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: add_user() missing 2 required positional arguments: 'pin_hash' and 'pin_salt'
+
+------------------------------------------------------------
+
+[2025-10-24T17:54:09.095649] add_user()
+Traceback (most recent call last):
+  File "C:\Users\Mggy\OneDrive\Documents\ProgrammingProjects\IAS-Project\qr_access_logger\apps\admin_app.py", line 173, in add_user
+    add_user(name, role, pin)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: add_user() missing 2 required positional arguments: 'pin_hash' and 'pin_salt'
+
+------------------------------------------------------------
+
+[2025-10-24T18:00:01.426249] add_user()
+Traceback (most recent call last):
+  File "C:\Users\Mggy\OneDrive\Documents\ProgrammingProjects\IAS-Project\qr_access_logger\apps\admin_app.py", line 173, in add_user
+    qr_token = add_user(name, role, pin)
+  File "C:\Users\Mggy\OneDrive\Documents\ProgrammingProjects\IAS-Project\qr_access_logger\core\database.py", line 47, in add_user
+    qr_token = make_qr_token()
+TypeError: make_qr_token() missing 2 required positional arguments: 'name' and 'pin_hash'
+
+------------------------------------------------------------
+
+[2025-10-24T18:00:17.226988] add_user()
+Traceback (most recent call last):
+  File "C:\Users\Mggy\OneDrive\Documents\ProgrammingProjects\IAS-Project\qr_access_logger\apps\admin_app.py", line 173, in add_user
+    qr_token = add_user(name, role, pin)
+  File "C:\Users\Mggy\OneDrive\Documents\ProgrammingProjects\IAS-Project\qr_access_logger\core\database.py", line 47, in add_user
+    qr_token = make_qr_token()
+TypeError: make_qr_token() missing 2 required positional arguments: 'name' and 'pin_hash'
+
+------------------------------------------------------------
